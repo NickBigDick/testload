@@ -6,7 +6,7 @@ from dotenv import load_dotenv, find_dotenv
 # else:
 #     load_dotenv()
 
-BOT_TOKEN = "5903248557:AAHhobXBAQEFVsTpLDnaG5RNG52SYzQCzOU"
+BOT_TOKEN = "5881389387:AAFC2UbytWDG4fAGtXTISko9W3Qq0w0Gctw"
 # RAPID_API_KEY = os.getenv("RAPID_API_KEY")
 DEFAULT_COMMANDS = (
     ("start", "Запустить бота"),

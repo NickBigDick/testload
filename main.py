@@ -1,5 +1,6 @@
 import time
-
+import telebot
+import logging
 from loader import bot
 import handlers  # noqa
 from utils.set_bot_commands import set_default_commands
@@ -14,6 +15,8 @@ WEBHOOK_SSL_PRIV
 
 
 if __name__ == "__main__":
+    logger = telebot.logger
+    telebot.logger.setLevel(logging.INFO)
     set_default_commands(bot)
     # bot.infinity_polling()
     # Remove webhook, it fails sometimes the set if there is a previous webhook
